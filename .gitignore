@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+#removing .txt files
+
+*.csv
+
 __pycache__/
 *.py[cod]
 *$py.class
