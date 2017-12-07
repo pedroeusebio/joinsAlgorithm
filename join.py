@@ -126,11 +126,11 @@ def main():
             'right': "ordered",
             'left': "ordered"
         },
-        # 'nested_loop': {
-        #     'func': nested_loop,
-        #     'right': "unordered",
-        #     'left': "ordered"
-        # },
+        'nested_loop': {
+            'func': nested_loop,
+            'right': "ordered",
+            'left': "ordered"
+        },
         'hash_join' : {
             'func': hash_join,
             'right': "unordered",
